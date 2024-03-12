@@ -1,0 +1,3 @@
+/Users/alanshao/Documents/UNSW/Uni-code/COMP9315/ass2/cmake-build-debug/CMakeFiles/ass2.dir
+/Users/alanshao/Documents/UNSW/Uni-code/COMP9315/ass2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/alanshao/Documents/UNSW/Uni-code/COMP9315/ass2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,20 @@
+gcc -Wall -Werror -g -std=c99   -c -o create.o create.c
+gcc -Wall -Werror -g -std=c99   -c -o query.o query.c
+gcc -Wall -Werror -g -std=c99   -c -o page.o page.c
+gcc -Wall -Werror -g -std=c99   -c -o reln.o reln.c
+gcc -Wall -Werror -g -std=c99   -c -o tuple.o tuple.c
+gcc -Wall -Werror -g -std=c99   -c -o util.o util.c
+gcc -Wall -Werror -g -std=c99   -c -o chvec.o chvec.c
+gcc -Wall -Werror -g -std=c99   -c -o hash.o hash.c
+gcc -Wall -Werror -g -std=c99   -c -o bits.o bits.c
+gcc   create.o query.o page.o reln.o tuple.o util.o chvec.o hash.o bits.o   -o create
+gcc -Wall -Werror -g -std=c99   -c -o dump.o dump.c
+gcc   dump.o query.o page.o reln.o tuple.o util.o chvec.o hash.o bits.o   -o dump
+gcc -Wall -Werror -g -std=c99   -c -o insert.o insert.c
+gcc   insert.o query.o page.o reln.o tuple.o util.o chvec.o hash.o bits.o   -o insert
+gcc -Wall -Werror -g -std=c99   -c -o select.o select.c
+gcc   select.o query.o page.o reln.o tuple.o util.o chvec.o hash.o bits.o   -o select
+gcc -Wall -Werror -g -std=c99   -c -o stats.o stats.c
+gcc   stats.o query.o page.o reln.o tuple.o util.o chvec.o hash.o bits.o   -o stats
+gcc -Wall -Werror -g -std=c99   -c -o gendata.o gendata.c
+gcc   gendata.o query.o page.o reln.o tuple.o util.o chvec.o hash.o bits.o   -o gendata

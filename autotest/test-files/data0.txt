@@ -1,0 +1,10 @@
+1000,triangle,pith
+1001,comet,signature
+1002,aeroplane,mum
+1003,dog,win
+1004,finger,desk
+1005,mosquito,finger
+1006,spectrum,circle
+1007,army,torch
+1008,ears,shop
+1009,planet,satellite
